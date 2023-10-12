@@ -70,7 +70,7 @@ div.content h1 {
 }
 
 div.content h2 {
-    color: #ff8c00;
+    color: #d67229;
     margin-bottom: .07rem;
     margin-top: 4rem;
 }
@@ -90,7 +90,7 @@ div.content ul li {
 }
 
 div.content dl dt {
-    color: #ff8c00;
+    color: #d67229;
     font-weight: 700;
 }
 
@@ -114,7 +114,7 @@ div.content address {
 }
 
 div.content a {
-    color: #ff8c00;
+    color: #d67229;
     text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ div.button1 a {
 }
 
 div.button1 a:hover {
-    color: #ff8c00;
+    color: #d67229;
     font-weight: 700;
 }
 /** Screen Size Stuff **/
