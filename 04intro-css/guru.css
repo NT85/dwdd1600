@@ -28,6 +28,7 @@ header h1 {
 header p {
     margin: 0; 
     font-size: 1.2em;
+    font-weight: 700;
 }
 
 /** Navigation Stuff **/
@@ -47,7 +48,7 @@ header p {
   color: black;
   padding: 16px;
   text-decoration: none;
-  font-weight: 700;
+    font-weight: 700;
 }
  
 .sidebar a.active {
@@ -93,7 +94,7 @@ div.content ul li {
 div.content dl dt {
     color: #d67229;
     font-weight: 700;
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 div.content dl dd {
@@ -118,8 +119,8 @@ div.content address {
 div.content a {
     color: #d67229;
     text-decoration: none;
-  font-weight: 700;
-    font-size: 1.1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 div.content a:hover {
@@ -179,12 +180,14 @@ footer {
     color: white; 
     text-align: center; 
     padding: 1em;
-  font-weight: 700;
+    font-weight: 700;
 }
 
 footer a {
     text-decoration: none;
-  font-weight: 700;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
 }
 
 footer a:hover {
