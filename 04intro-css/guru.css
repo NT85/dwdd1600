@@ -14,7 +14,7 @@ h1, h2 {
 /** Header Stuff **/
 
 header {
-    background-color: #999; 
+    background-color: #737373; 
     color: #f2f2f2; 
     padding: 1rem 2%; 
 }
@@ -36,7 +36,7 @@ header p {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #d8d8d8;
     height: 100%;
     position: fixed;
   overflow: auto;
@@ -47,6 +47,7 @@ header p {
   color: black;
   padding: 16px;
   text-decoration: none;
+  font-weight: 700;
 }
  
 .sidebar a.active {
@@ -92,6 +93,7 @@ div.content ul li {
 div.content dl dt {
     color: #d67229;
     font-weight: 700;
+  font-size: 1.2rem;
 }
 
 div.content dl dd {
@@ -116,11 +118,12 @@ div.content address {
 div.content a {
     color: #d67229;
     text-decoration: none;
+  font-weight: 700;
+    font-size: 1.1rem;
 }
 
 div.content a:hover {
     color: #960200;
-    font-weight: 700;
 }
 
 div.content div.exlink ul {
@@ -172,12 +175,18 @@ div.button1 a:hover {
 /** Footer Stuff **/
 
 footer { 
-    background-color: #999; 
+    background-color: #737373; 
     color: white; 
     text-align: center; 
     padding: 1em;
+  font-weight: 700;
 }
 
 footer a {
     text-decoration: none;
+  font-weight: 700;
+}
+
+footer a:hover {
+    color: #960200;
 }
