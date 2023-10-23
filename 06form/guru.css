@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0; 
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/** Header Stuff **/
+
+header {
+    background-color: #737373; 
+    color: #f2f2f2; 
+    padding: 1rem 2%; 
+}
+
+header h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    letter-spacing: 1.6px;
+}
+
+header p {
+    margin: 0; 
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/** Navigation Stuff **/
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #d8d8d8;
+    height: 100%;
+    position: fixed;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+    font-weight: 700;
+}
+ 
+.sidebar a.active {
+  background-color: #960200;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/** Content Stuff **/
+
+div.content ol {
+    background-color: #efefef;
+}
+
+div.content h1 {
+    color: #960200;
+}
+
+div.content h2 {
+    color: #d67229;
+    margin-bottom: .07rem;
+    margin-top: 4rem;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+div.content ul {
+    background-color: #efefef;
+    list-style-type: square;
+}
+
+div.content ul li {
+    margin-bottom: .5rem;
+}
+
+div.content dl dt {
+    color: #d67229;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+div.content dl dd {
+    margin-bottom: .7rem;
+    font-size: .9rem;
+}
+
+div.content dl {
+    margin-bottom: 2rem;
+}
+
+div.content address {
+    font-style: normal;
+    background-color: #f1f1f1;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2.5px solid #960200;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+div.content a {
+    color: #d67229;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+div.content a:hover {
+    color: #960200;
+}
+
+div.content div.exlink ul {
+    background-color: white;
+}
+
+div.content div.exlink ul a {
+    color: black;
+    text-decoration: underline;
+}
+
+div.button1 {
+    background-color: #960200;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+div.button1 a {
+    color: white;
+}
+
+div.button1 a:hover {
+    color: #d67229;
+    font-weight: 700;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #960200;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #960200;
+}
+
+
+/** Screen Size Stuff **/
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+    }}
+
+/** Form Stuff **/
+
+.myform fieldset {
+    border: 1px solid #737373;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myform legend {
+    color: #960200;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea {
+    display: block;
+}
+
+.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
+    border: solid 1px;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.myform textarea {
+    height: 6rem;
+}
+
+.myform :required {
+    background-color: rgba(156,51,53,0.2);
+}
+
+.myform [type=submit] {
+    background-color: #960200;
+    border: none;
+    border-radius: .3rem;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1rem 0 1rem 1vw;
+}
+
+/** Footer Stuff **/
+
+footer { 
+    background-color: #737373; 
+    color: white; 
+    text-align: center; 
+    padding: 1em;
+    font-weight: 700;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #960200;
+}
