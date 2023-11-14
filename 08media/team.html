@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="guru.css">
+<meta charset="UTF-8">
+<title>The Gridiron Guru: Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+<meta name="author" content="Noa Toketa">
+<meta name="description" content="Learn the technical basics of your postition in Football!">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+    
+<body>
+    <!-- Start of page header --> 
+    <header>  
+        <img src="images/logo.png" alt="site logo" width="87" height="100">
+        <div>
+            <h1 id="tophome">The Gridiron Guru</h1>   
+            <p>Master the field and dominate the game!</p>
+        </div>
+    </header>
+
+    <!-- Start of page navigation --> 
+<div class="navigation">
+    <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="positions.html">Positions</a></li>
+    <li><a class="active" href="team.html">Join The Team</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+</div>
+
+ <!-- Start of main content -->   
+<div class="content">
+  <h1>Join The Team</h1>
+    <p>We invite you to become an official member by filling out our user sign-up form. By doing so, you'll unlock a world of exclusive content, invaluable information, and specialized knowledge that goes beyond what's readily available on our website. As a member, you gain access to a treasure trove of insights, tips, and resources that are tailored to enhance your experience and expertise in the realm of football. Don't miss out on this opportunity to take your passion for the game to new heights. Take a look <a href="brochure.pdf" target="_blank">at our brochure</a> to gain a little more information about joining the team! Join us today and become part of a community dedicated to elevating your football knowledge!</p>
+    <form method="get" class="myform" action="thanks.html">
+    
+        <fieldset>
+            <legend>Member Information*</legend>
+    <label>First Name*<input type="text" name="fname" required></label>
+    <label>Last Name*<input type="text" name="lname" required></label>
+    <label>Email*<input type="email" name="email" required></label>
+    <label>Phone Number<input type="tel" name="phone"></label>
+            </fieldset>
+    
+    <fieldset>
+        <legend>Years Of Experience*</legend>
+        <label><input type="radio" name="experience" value="first year" required> First Year</label>
+        <label><input type="radio" name="experience" value="one-five"> 1-5 Years</label>
+        <label><input type="radio" name="experience" value="five-ten"> 5-10 Years</label>
+        <label><input type="radio" name="experience" value="ten-plus"> 10+ Years</label>
+        </fieldset>
+        
+    <fieldset>
+        <legend>Position(s) You Play*</legend>
+        <label><input type="checkbox" name="quarterback" value="chosen"> Quarterback</label>
+        <label><input type="checkbox" name="runningback" value="chosen"> Runningback</label>
+        <label><input type="checkbox" name="widereceiver" value="chosen"> Wide Receiver</label>
+        <label><input type="checkbox" name="offensive-line" value="chosen"> Offensive Line</label>
+        <label><input type="checkbox" name="defensive-line" value="chosen"> Defensive Line</label>
+        <label><input type="checkbox" name="linebacker" value="chosen"> Linebacker</label>
+        <label><input type="checkbox" name="defensive-back" value="chosen"> Defensive Back</label>
+        <label><input type="checkbox" name="kicker" value="chosen"> Kicker</label>
+        
+        <label> Favorite Position
+        <select name="favorite">
+            <option value="none">Please Select</option>
+            <option value="quarterback">Quarterback</option>
+            <option value="runningback">Runningback</option>
+            <option value="widereceiver">Wide Receiver</option>
+            <option value="offensive-line">Offensive Line</option>
+            <option value="defensive-line">Defensive Line</option>
+            <option value="linebacker">Linebacker</option>
+            <option value="defensive-back">Defensive Back</option>
+            <option value="kicker">Kicker</option>
+        </select>
+            </label>
+        </fieldset>
+        
+        <label>After seeing the brochure, what membership would you like to sign up for?
+        <textarea name="comments" placeholder="Speed & Agility, Stance needs work."></textarea>
+        </label>
+        
+        <audio controls>
+            <source src="narration.ogg" type="audio/ogg">
+            <source src="narration.mp3" type="audio/mpeg">
+        
+        
+        </audio>
+        
+        
+        
+        
+        
+    <input type="submit" value="Become A Member Now">
+    </form>
+</div>
+
+<!-- Start of the page footer -->
+<footer>
+    <p>&copy; 2023 &bull; Noa Toketa &bull; <a href="mailto:noatoketa85@gmail.com">Email Us</a> &bull; <a href="https://www.instagram.com/thattoketakid8/" target="_blank" rel=noopener>Follow Me</a></p>
+</footer>
+                
+    
+</body>
+</html>
